@@ -1,0 +1,25 @@
+
+----------------------------------------------------------------------------------------------------
+* Gameplay:
+    1. Players take turns performing moves.
+    2. The first turn is set randomly.
+    3. On a player's turn, they can make a move by either:
+        Attacking: Using one of their chopsticks to tap (touch) an opponent's chopstick. If a
+        chopstick's total count reaches 5, it's considered "out" or eliminated
+        for that player.
+        Splitting: Using one of their chopsticks to divide their own count between the opponent's
+        chopsticks (e.g., a player with a total of 5 fingers can split them as 3 and 2 onto two
+        different hands of their opponent). This is to avoid placing all your counts on one hand,
+        as losing both hands means you're out of the game.
+
+* Rules:
+    Chopsticks count:
+        Each chopstick can hold a maximum of 4 counts. After reaching 5, it's considered "eliminated"
+        or "out" and can no longer be used, which is represented as "0" in this game.
+    Winning:
+        1. When one player's both hands are eliminated (reach a count of 5 i.e. "0" on both hands)
+        he/she loses
+        2. When one player can neither attack nor split, he/she loses
+----------------------------------------------------------------------------------------------------
+
+
