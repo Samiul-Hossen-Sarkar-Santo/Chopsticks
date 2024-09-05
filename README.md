@@ -56,4 +56,5 @@ The next step for this project is to develop a mobile version of the game. Curre
 
 This project was a personal initiative to strengthen my knowledge of Object-Oriented Programming (OOP) and Java. And I plan to expand this project into mobile app development.
 
-Feel free to reach out for any questions or feedback about **Chopsticks**!
+
+*Feel free to reach out for any questions or feedback about **Chopsticks**!*
