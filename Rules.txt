@@ -8,8 +8,8 @@
         chopstick's total count reaches 5, it's considered "out" or eliminated
         for that player.
         Splitting: Using one of their chopsticks to divide their own count between the opponent's
-        chopsticks (e.g., a player with a total of 5 fingers can split them as 3 and 2 onto two
-        different hands of their opponent). This is to avoid placing all your counts on one hand,
+        chopsticks (e.g., a player with a total of 5 fingers can split them as 3 and 2 onto the both
+        hands). This is to avoid placing all your counts on one hand,
         as losing both hands means you're out of the game.
 
 * Rules:

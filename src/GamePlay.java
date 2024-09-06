@@ -1,3 +1,5 @@
+import org.w3c.dom.ls.LSOutput;
+
 import java.util.ArrayList;
 import java.util.Scanner;
 
@@ -25,8 +27,13 @@ public class GamePlay{
         int choice = 0;
         System.out.println("\n" + giver.name + "'s turn...");
         System.out.println(giver.name + ", Do you want to Attack(1) or Split(2): ");
-        choice = input.nextInt();
-        if (choice==1){
+        String userInput = input.nextLine();
+
+        choice = input.hasNextInt() ? input.nextInt() : -1;
+
+        if (choice == -1) {
+            System.out.println("Input a number!");
+        }else if (choice==1){
             attack(giver, receiver);
         }else if (choice==2){
             System.out.print("\nHow do you want to split?\n\tEnter left: ");
